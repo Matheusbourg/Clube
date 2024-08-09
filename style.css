@@ -1,61 +1,109 @@
 body {
     font-family: Arial, sans-serif;
+    color: #333;
     margin: 0;
     padding: 0;
+    text-align: center;
+    background-color: #e0e0e0;
 }
 
 .topo {
-    text-align: center;
-    padding: 20px;
-    max-width: 800px;
+    padding: 20px 0;
+}
+
+.img-logo {
+    width: 150px;
+}
+
+.paragrafo-topo {
+    margin: 10px 0;
+}
+
+.link-topo {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #8c6239;
+    font-weight: bold;
+}
+
+.banner {
+    padding: 20px 0;
+}
+
+.h1secao {
+    font-size: 30px;
+    color: black;
+    border-top: solid #e57e25;
+    padding-top: 25px;
+    margin-right: 22%;
+    margin-left: 22%;
+}
+
+.h2secao {
+    font-size: 18px;
+    color: #e49534;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.vitrine {
+    width: 975px;
+    margin-top: 20px;
+}
+
+.produtos {
+    background-color: #e57e25;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding: 20px 0;
+    color: #e0e0e0;
+}
+
+.h1produtos {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.h2paes {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.ppaes {
+    width: 600px;
     margin: 0 auto;
 }
 
-.h1topo {
-    color: #000;
-    font-size: 36px;
+.paes {
+    width: 500px;
     margin: 10px 0;
 }
 
-.h2topo {
-    color: #000;
-    font-size: 24px;
-    margin: 10px 0;
-}
-
-.imgtopo {
-    width: 800px; 
-    height: auto;
-}
-
-.secao {
-    margin: 20px auto;
-    padding: 0;
-    max-width: 800px;
-}
-
-.subtitulos {
-    color: #000;
-    font-size: 24px;
-    margin: 20px 0 10px;
-}
-
-img {
-    width: 800px;
-    height: auto;
+.h2bolos {
+    font-size: 20px;
     margin-top: 20px;
-    margin-bottom: 20px;
-    border: 6px solid #00f;
 }
 
-p {
-    color: #000;
-    font-size: 18px;
+.pbolos {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.bolos {
+    width: 500px;
     margin: 10px 0;
-    padding: 0 20px;
-    text-align: justify;
 }
 
-b{
-    color: aqua;
+.contato {
+    padding: 20px 0;
+    color: #333;
+}
+
+.hcontato {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.pcontato {
+    margin: 5px 0;
 }
